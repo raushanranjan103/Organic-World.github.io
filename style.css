@@ -1,0 +1,652 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*--------------------------------------------------------------- navigation bar---------------------------------------*/
+.nav{
+	background-color: #5ACD31 ;
+	z-index: 9;
+	padding-left: 50px;
+	padding-right: 40px;
+	display: flex;
+	box-shadow: 0px 3px 65px 0px rgba(0,0,0,0.15);
+}
+.nav_stop{
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+}
+.logo{
+	float: left;
+	width: 50%;
+}
+.logo img{
+	padding: 4px;
+	width: 40%;
+	border-radius: 70px;
+	margin-top: 3px;
+}
+.nav_side{
+	float: right;
+	width: 50%;
+	margin-top: 50px;
+}
+.nav_side a{
+	text-decoration: none;
+	margin-right: 20px;
+	color: white;
+	font-weight:bold;
+	font-size: 22px;
+	font-family: 'Federant', cursive;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	text-align: center;
+}
+.nav_side a:hover{
+	color: red;
+	text-decoration:underline;
+	transition: all 1s ease;
+}
+/* --------------------------------------------------------------------main image part--------------------------------*/
+.main{
+	background-image: url("back3.jpeg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 80vh;
+}
+.main .main_content{
+	padding-top: 15%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.main .main_content h2{
+	color: white ;
+	font-size: 50px;
+	font-family: 'Federant', cursive;
+	font-weight: bolder;
+	text-align: left;
+	line-height: 25px;
+}
+.main .main_content h2 span{
+	font-size: 15px;
+	font-weight: 10px;
+	color: white;
+	font-weight: 500;
+	line-height: 20px;
+}
+.main .main_content .btn{
+	margin-top: -100px;
+	text-align: center;
+	margin-left: 500px;
+}
+.main .main_content .btn a{
+	text-decoration:none;
+	margin:50px;
+	padding: 10px 20px;
+	background-color: green;
+	color: white;
+	font-family:'Federant', cursive;
+	text-align: center;
+	border:2px solid white;
+	border-radius: 10px;
+}
+.main .main_content .btn a:hover{
+	background-color: yellow;
+	font-weight: 15px;
+	color: red;
+	border:none;
+	border-bottom: 4px solid orange;
+	transition: 0.5s;
+}
+/* ------------------------------------------------------------------product part-----------------------------------------*/
+.product{
+	padding-bottom: 50px;
+}
+.product h2{
+	color: black;
+	font-size: 35px;
+	text-align: center;
+	font-weight: lighter;
+	padding-top:60px;
+	padding-bottom: 30px;
+	font-family: 'Federant', cursive;
+}
+.product .product_nav{
+	padding: 20px;
+
+}
+.product .product_nav nav{
+ 	text-align: right;
+ 	padding-right: 100px;
+}
+.product .product_nav a{
+	padding-right: 50px;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 'Federant', cursive;
+	color: purple;
+}
+
+.product h3{
+	color: black;
+	font-size: 25px;
+	text-align: left;
+	font-weight: lighter;
+	padding-left: 100px;
+	padding-top:60px;
+	padding-bottom: 30px;
+	font-family: 'Federant', cursive;
+}
+.product .product_container{
+	display: flex;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+.product .product_container .item{
+	width: 33.33%;
+	margin: 10px;
+	height: auto;
+	border-radius: 20px;
+}
+.product .product_container .item:hover{
+	box-shadow: 0px 3px 65px 0px rgba(0,0,0,.15);
+}
+.product .product_container .item .item_img{
+	width: 100%;
+	height: 270px;
+	overflow: hidden;
+}
+.product .product_container .item .item_img img{
+	width: 100%;
+	height: 250px;
+	border-radius: 20px 20px 0px 0px;
+}
+.product .product_container .item .item_content{
+	text-align: center;
+}
+.product .product_container .item .item_content h3{
+	font-weight: 400;
+	font-size: 28px;
+	padding: 10px;
+	font-family: 'Federant', cursive;
+}
+.product .product_container .item .item_content p{
+	font-size: 20px;
+	padding-bottom:	 15px;
+	margin-bottom: 20px;
+	font-family: 'Federant', cursive;
+}
+ .product .product_container .item .item_content .bt{
+	text-decoration:none;
+	margin-top: 80px;
+	margin-left: 20px;
+	padding: 10px 20px;
+	background-color: green;
+	color: white;
+	font-family: 'Federant', cursive;
+	text-align: center;
+	border:2px solid white;
+	border-radius: 10px;
+}
+.product .product_container .item .item_content a:hover{
+	background-color: yellow;
+	color: red;
+	border:none;
+	border-bottom: 4px solid orange;
+	transition: 0.5s;
+}
+.product .product_container .item .item_content .rcp{
+	color: blue;
+	text-align: left;
+	font-weight: bold;
+}
+.product .product_btn{
+	text-align: center;
+	margin-top: 40px;
+}
+.product .product_btn a{
+	text-decoration:none;
+	padding: 10px;
+	background-color: green;
+	color: white;
+	font-family: 'Federant', cursive;
+	text-align: center;
+	border:2px solid white;
+	border-radius: 10px;
+}
+.product .product_btn a:hover{
+	background-color: yellow;
+	color: red;
+	border:none;
+	border-bottom: 4px solid orange;
+	transition: 0.5s;
+}
+.product .product_container .item .item_img iframe{
+	width: 100%;
+	height: 250px;
+	border-radius: 20px 20px 0px 0px;
+}
+/* -----------------------------------------------------------------------key points part------------------------------------------*/
+.keypoints{
+	padding:50px;
+}
+.keypoints h2{
+	color: black;
+	font-size: 35px;
+	text-align: center;
+	font-weight: lighter;
+	padding-top:30px;
+	padding-bottom: 30px;
+	font-family: 'Federant', cursive;
+}
+.keypoints .key_container{
+	display: flex;
+}
+.keypoints .key_container .key_content{
+	width: 50%;
+	padding:20px;
+	float: left;
+}
+.keypoints .key_container .key_content li{
+	list-style: none;
+	margin: 10px;
+	padding: 20px;
+	border-left:3px solid green;
+	color: black;
+	text-align: left;
+	font-family:'Federant', cursive;
+	box-shadow: 0px 3px 65px 0px rgba(0,0,0,.15); 
+}
+.keypoints .key_container .key_content li:hover{
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.keypoints .key_container .key_img{
+	width: 40%;
+	float: right;
+	margin-left:60px; 
+	margin-top:60px;
+}
+.keypoints .key_container .key_img img{
+	width: 100%;
+
+}
+/* -------------------------------------------------------------------------------testimonial(clint) part----------------------------*/
+.testi{
+	padding: 50px;
+}
+.testi h2{
+	color: black;
+	font-size: 35px;
+	text-align: center;
+	font-weight: lighter;
+	padding-top:30px;
+	padding-bottom: 30px;
+	font-family:'Federant', cursive;
+	text-transform: uppercase;
+}
+.testi .testi_container{
+	margin-right: 10%;
+	margin-left: 10%;
+	text-align: center;
+	margin-bottom: 60px;
+}
+.testi .testi_container .carousel-inner{
+	background-color: green ;
+	box-shadow: none;
+}
+.testi .testi_container .item{
+	width: 100%;
+	padding: 20px;
+	background-color: #39FC5A ;
+	box-shadow: none;
+}
+ .testi .testi_container .item .item_img{
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	overflow: hidden;
+}
+.testi .testi_container .item .item_img img{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+.testi .testi_container .item .item_content{
+	text-align: center;
+}
+.testi .testi_container .item .item_content h3{
+	font-weight: 400;
+	font-size: 28px;
+	padding: 10px;
+	color: #561505;
+	font-family:'Federant', cursive;
+}
+.testi .testi_container .item .item_content p{
+	font-size: 20px;
+	padding-bottom:	 15px;
+	margin-bottom: 20px;
+	font-family: 'Federant', cursive;
+}
+/* -----------------------------------------------------------------------our team part------------------------------------------*/
+.team{
+	padding: 50px;
+}
+.team h2{
+	color: black;
+	font-size: 35px;
+	text-align: center;
+	font-weight: lighter;
+	padding-top:30px;
+	padding-bottom: 30px;
+	font-family:'Federant', cursive;
+	text-transform: uppercase;
+}
+.team .team_container{
+	display: flex;
+}
+.team .team_container .team_video{
+	width: 50%;
+	padding: 20px;
+}
+.team .team_container .team_video iframe{
+	width: 100%;
+	border:10px solid green;
+	outline: none;
+}
+.team .team_container .team_content{
+	width: 40%;
+	padding: 20px;
+	margin-left: 50px;
+}
+.team .team_container .team_content p{
+	margin-top: 10px;
+	font-size: 20px;
+	padding-bottom:	 15px;
+	margin-bottom: 20px;
+	font-family: 'Federant', cursive;
+}
+/* ---------------------------------------------------------------------feedback form part-------------------------*/
+.feed{
+	padding: 50px;
+	background-image: url("fd1.jpg");
+	background-size: cover;
+}
+.feed h2{
+	color: black;
+	font-size: 35px;
+	text-align: right;
+	font-weight: lighter;
+	padding-top:30px;
+	padding-bottom: 30px;
+	padding-right: 130px;
+	font-family: 'Federant', cursive;
+	text-transform: uppercase;
+}
+.feed .feed_form{
+	text-align: right;
+	padding-right: 70px;
+}
+.feed .feed_form form{
+	padding: 20px;
+}
+.feed .feed_form form input{
+	width: 30%;
+	margin: 10px;
+	padding: 10px;
+	outline: none;
+	border:3px solid green;
+	border-radius: 0px 20px 0px 20px;
+}
+.feed .feed_form form textarea{
+	width: 30%;
+	margin: 10px;
+	padding: 10px;
+	outline: none;
+	border:none;
+	border:3px solid green;
+	border-radius: 0px 20px 0px 20px;
+}
+.feed .feed_form form button{
+	width: 30%;
+	margin: 10px;
+	padding: 8px;
+	outline: none;
+	border:none;
+	font-weight: 400;
+	background-color: green;
+	color: white;
+	border-radius: 5px;
+	border:3px solid white;
+	border-radius: 0px 20px 0px 20px;
+}
+.feed .feed_form form button:hover{
+	background-color: yellow;
+	font-weight: 15px;
+	color: red;
+	border:none;
+	border-bottom: 4px solid orange;
+	transition: 0.5s;
+}
+/* ---------------------------------------------------------------------About us part---------------------------------------------*/
+.about_us{
+	padding: 100px;
+}
+.about_us h2{
+	color: green;
+	font-size: 35px;
+	text-align: center;
+	font-weight: bold;
+	padding-top:30px;
+	padding-bottom: 30px;
+	font-family: 'Federant', cursive;
+	text-transform: uppercase;
+}
+.about_us p{
+	font-size: 17px;
+	padding: 7px;
+	font-family: 'Federant', cursive;
+}
+/* -----------------------------------------------------------contact container of contact part-------------------------------------*/
+.contact_container{
+	padding: 100px;
+}
+.contact_container h2{
+	color: green;
+	font-size: 35px;
+	text-align: center;
+	font-weight: bold;
+	padding-top:30px;
+	padding-bottom: 30px;
+	font-family: 'Federant', cursive;
+	text-transform: uppercase;
+}
+.contact_container .g_map{
+	border:10px solid green;
+}
+.contact_container .contact_content{
+	padding: 20px;
+}
+.contact_container .contact_content p{
+	font-size: 20px;
+	padding-bottom:	 15px;
+	margin-bottom: 20px;
+	font-family:'Federant', cursive;
+	text-align: center;
+}
+.contact_container .contact_content .social{
+	margin-left: 475px;
+}
+.contact_container .contact_content .social a{
+	text-decoration: none;
+	font-size: 30px;
+	color: purple;
+	margin: 10px;
+}
+.contact_container .contact_content .social a:hover{
+	color: blue;
+}
+.log{
+	padding: 50px;
+	margin-top: 100px;
+	background-image: url(lg_bk2.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: auto;
+}
+.log h2{
+	color: white;
+	font-size: 35px;
+	text-align: center;
+	font-weight: lighter;
+	padding-top:30px;
+	padding-bottom: 30px;
+	padding-right: 130px;
+	font-family: 'Federant', cursive;
+	text-transform: uppercase;
+}
+.log .log_form{
+	text-align: center;
+	padding-right: 70px;
+	border: 5px solid white;
+	margin-left: 800px;
+	background: rgba(0, 0, 0, 0.3);
+	border-radius: 0px 20px 0px 20px;
+	box-shadow: 4px 5px gray ;
+}
+.log .log_form form{
+	padding: 20px;
+}
+.log .log_form form input{
+	width: 100%;
+	margin: 9px;
+	padding: 10px;
+	outline: none;
+	border:3px solid green;
+	border-radius: 0px 20px 0px 20px;
+}
+.log .log_form form button{
+	width: 30%;
+	margin: 10px;
+	padding: 8px;
+	outline: none;
+	border:none;
+	font-weight: 400;
+	background-color: green;
+	color: white;
+	border-radius: 5px;
+	border:3px solid white;
+	border-radius: 0px 20px 0px 20px;
+}
+.log .log_form form button a{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-family: 'Federant', cursive;
+}
+.log .log_form form button:hover{
+	background-color: purple;
+	font-weight: 15px;
+	color: red;
+	border:3px solid white;
+	transition: 0.5s;
+}
+/* ----------------------------------------------------------------------footer part-------------------------------------*/
+footer{
+	background-color: #AEFA8D ;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 50px;
+	padding-bottom: 5px;
+}
+footer .footer_logo{
+	float: left;
+}
+footer .footer_logo img{
+	padding: 5px;
+	border-radius: 70px;
+	margin-top: 10px;
+}
+footer .pages{
+	margin-left: 500px;
+}
+footer .pages h3{
+	color: green;
+	font-size: 20px;
+	font-family: 'Federant', cursive;
+	padding: 5px;
+}
+footer .pages a{
+	text-decoration:none;
+	margin: 10px;
+	color: purple;
+	font-size: 15px;
+	font-family:'Federant', cursive;
+}
+footer .pages a:hover{
+	color: blue;
+}
+footer .doc{
+	margin-left: 500px;
+}
+footer .doc h3{
+	color: green;
+	font-size: 20px;
+	font-family: 'Federant', cursive;
+	padding: 5px;
+}
+footer .doc a{
+	text-decoration:none;
+	margin: 10px;
+	color: purple;
+	font-size: 15px;
+	font-family: 'Federant', cursive;
+}
+footer .doc a:hover{
+	color: blue;
+}
+footer .social{
+	margin-left: 500px;
+}
+footer .social h3{
+	color: green;
+	font-size: 20px;
+	font-family: 'Federant', cursive;
+	padding: 5px;
+}
+footer .social a{
+	text-decoration: none;
+	font-size: 30px;
+	color: purple;
+	margin: 10px;
+}
+footer .social a:hover{
+	color: blue;
+}
+footer .contact{
+	margin-left: 500px;
+}
+footer .contact h3{
+	color: green;
+	font-size: 20px;
+	font-family: 'Federant', cursive;
+	padding: 5px;
+}
+footer .contact a{
+	text-decoration: none;
+	font-size: 30px;
+	color: purple;
+	margin: 10px;
+}
+footer .contact a:hover{
+	color: blue;
+}
+footer p{
+	text-align: center;
+}
